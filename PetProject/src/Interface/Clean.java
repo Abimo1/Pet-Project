@@ -1,6 +1,6 @@
 package Interface;
 
-public class Choice {
+public class Clean {
     public static char cleanIn() throws Exception {
         char ignore, choice;
         choice = (char) System.in.read();
@@ -8,6 +8,5 @@ public class Choice {
             ignore = (char) System.in.read();
         } while(ignore != '\n');
         return choice;
-
     }
 }

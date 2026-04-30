@@ -11,15 +11,14 @@ public class Input {
         String input = null;
         while(true) {
             System.out.print("Введите номер автобуса: ");
-            input = scanner.nextLine().trim();
-            if (input == null || input.isEmpty()) {
-                System.out.println("Введены некорректные данные!");
-                continue;
-            }
+
+            input = stringNotEmpty(input, scanner);
+            if (input.equals("-1")) continue;
+
+            if (input.equals("!exit")) return -1;
 
             try {
                 value = ValidationService.validateNumber(input);
-                System.out.println(value);
                 return value;
             } catch (IllegalArgumentException e) {
                 System.out.println("Ошибка: " + e.getMessage());
@@ -33,15 +32,14 @@ public class Input {
         String input = null;
         while(true) {
             System.out.print("Введите модель автобуса: ");
-            input = scanner.nextLine().trim();
-            if (input == null || input.isEmpty()) {
-                System.out.println("Введены некорректные данные!");
-                continue;
-            }
+
+            input = stringNotEmpty(input, scanner);
+            if (input.equals("-1")) continue;
+
+            if (input.equals("!exit")) return "!exit";
 
             try {
                 value = ValidationService.validateModel(input);
-                System.out.println(value);
                 return value;
             } catch (IllegalArgumentException e) {
                 System.out.println("Ошибка: " + e.getMessage());
@@ -55,19 +53,27 @@ public class Input {
         String input = null;
         while(true) {
             System.out.print("Введите пробег автобуса: ");
-            input = scanner.nextLine().trim();
-            if (input == null || input.isEmpty()) {
-                System.out.println("Введены некорректные данные!");
-                continue;
-            }
+
+
+            input = stringNotEmpty(input, scanner);
+            if (input.equals("-1")) continue;
+
+            if (input.equals("!exit")) return -1;
 
             try {
                 value = ValidationService.validateMileage(input);
-                System.out.println(value);
                 return value;
             } catch (IllegalArgumentException e) {
                 System.out.println("Ошибка: " + e.getMessage());
             }
         }
+    }
+
+    public static String stringNotEmpty(String input, Scanner scanner) {
+        input = scanner.nextLine().trim();
+        if (input == null || input.isEmpty()) {
+            return "-1";
+        } else
+            return input;
     }
 }
