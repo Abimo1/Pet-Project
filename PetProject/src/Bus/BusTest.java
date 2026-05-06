@@ -1,23 +1,29 @@
 package Bus;
 
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import Bus.Bus.BusBuilder;
 import java.io.PrintStream;
 
+
+
 public class BusTest {
-    public static void main(String[] args) {
-        Bus bus1 = BusBuilder.newInstance().setNumber("101").setModel("Mercedes").setMileage("50000").build();
-        Bus bus2 = BusBuilder.newInstance().setNumber("20").setModel("Volvo").setMileage("120000").build();
+
+    @Test
+    void testNumberSort() {
+        Bus bus1 = BusBuilder.newInstance().setNumber("101").build();
+        Bus bus2 = BusBuilder.newInstance().setNumber("20").build();
         SortStrategy numberSort = new SortByNumber();
-        PrintStream var10000 = System.out;
-        int var10001 = numberSort.compare(bus1, bus2);
-        var10000.println("Тест номера: " + (var10001 > 0 ? "Пройден" : "Ошибка"));
+
+        assertTrue(numberSort.compare(bus1, bus2) > 0, "Автобус 101 должен быть после 20");
+    }
+
+    @Test
+    void testModelSort() {
+        Bus bus1 = BusBuilder.newInstance().setModel("Mercedes").build();
+        Bus bus2 = BusBuilder.newInstance().setModel("Volvo").build();
         SortStrategy modelSort = new SortByModel();
-        var10000 = System.out;
-        var10001 = modelSort.compare(bus1, bus2);
-        var10000.println("Тест модели: " + (var10001 < 0 ? "Пройден" : "Ошибка"));
-        SortStrategy mileageSort = new SortByMileage();
-        var10000 = System.out;
-        var10001 = mileageSort.compare(bus1, bus2);
-        var10000.println("Тест пробега: " + (var10001 < 0 ? "Пройден" : "Ошибка"));
+
+        assertTrue(modelSort.compare(bus1, bus2) < 0, "Mercedes должен быть перед Volvo");
     }
 }
