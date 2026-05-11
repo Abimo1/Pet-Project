@@ -1,7 +1,21 @@
-package Bus;
+package bus;
 
-class SortByMileage implements SortStrategy {
-    public int compare(Bus b1, Bus b2) {
-        return Integer.compare(b1.getMileage(), b2.getMileage());
+public class SortByMileage implements SortStrategy {
+
+    @Override
+    public void sort(Bus[] buses) {
+
+        for (int i = 0; i < buses.length - 1; i++) {
+
+            for (int j = 0; j < buses.length - i - 1; j++) {
+
+                if (buses[j].getMileage() > buses[j + 1].getMileage()) {
+
+                    Bus temp = buses[j];
+                    buses[j] = buses[j + 1];
+                    buses[j + 1] = temp;
+                }
+            }
+        }
     }
 }
