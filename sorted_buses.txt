@@ -1,0 +1,98 @@
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=94883}
+Bus{number='Number2', model='Model2', mileage=60355}
+Bus{number='Number3', model='Model3', mileage=53516}
+Bus{number='Number4', model='Model4', mileage=89389}
+Bus{number='Number5', model='Model5', mileage=21416}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=10000}
+
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=17327}
+Bus{number='Number2', model='Model2', mileage=81119}
+Bus{number='Number3', model='Model3', mileage=60247}
+Bus{number='Number4', model='Model4', mileage=9418}
+Bus{number='Number5', model='Model5', mileage=6856}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=10000}
+
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=97754}
+Bus{number='Number2', model='Model2', mileage=24918}
+Bus{number='Number3', model='Model3', mileage=83415}
+Bus{number='Number4', model='Model4', mileage=73115}
+Bus{number='Number5', model='Model5', mileage=69428}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=10000}
+
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=91039}
+Bus{number='Number2', model='Model2', mileage=92475}
+Bus{number='Number3', model='Model3', mileage=35818}
+Bus{number='Number4', model='Model4', mileage=16760}
+Bus{number='Number5', model='Model5', mileage=32693}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=10000}
+
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=2379}
+Bus{number='Number2', model='Model2', mileage=94180}
+Bus{number='Number3', model='Model3', mileage=782}
+Bus{number='Number4', model='Model4', mileage=80922}
+Bus{number='Number5', model='Model5', mileage=15023}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=10000}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=15000}
+Bus{number='B456CD', model='Volvo', mileage=22000}
+
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=92074}
+Bus{number='Number2', model='Model2', mileage=76437}
+Bus{number='Number3', model='Model3', mileage=31131}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=15000}
+Bus{number='B456DA', model='Volvo', mileage=20000}
+Bus{number='C789EF', model='Iveco', mileage=25000}
+
+=== NEW SORT RESULT ===
+Bus{number='Number5', model='Model5', mileage=9953}
+Bus{number='Number1', model='Model1', mileage=27490}
+Bus{number='Number2', model='Model2', mileage=46735}
+Bus{number='Number3', model='Model3', mileage=66337}
+Bus{number='Number4', model='Model4', mileage=98506}
+
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=62599}
+Bus{number='Number2', model='Model2', mileage=17380}
+Bus{number='Number3', model='Model3', mileage=7091}
+Bus{number='Number4', model='Model4', mileage=31918}
+Bus{number='Number5', model='Model5', mileage=39164}
+
+=== NEW SORT RESULT ===
+Bus{number='C789EF', model='Iveco', mileage=25000}
+Bus{number='A123BC', model='Mercedes', mileage=15000}
+Bus{number='B456DA', model='Volvo', mileage=20000}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=15000}
+Bus{number='B456DA', model='Volvo', mileage=20000}
+Bus{number='C789EF', model='Iveco', mileage=25000}
+
+=== NEW SORT RESULT ===
+Bus{number='Number1', model='Model1', mileage=65988}
+Bus{number='Number2', model='Model2', mileage=15745}
+Bus{number='Number3', model='Model3', mileage=59303}
+Bus{number='Number4', model='Model4', mileage=95910}
+Bus{number='Number5', model='Model5', mileage=67491}
+
+=== NEW SORT RESULT ===
+Bus{number='A123BC', model='Mercedes', mileage=10000}
+
